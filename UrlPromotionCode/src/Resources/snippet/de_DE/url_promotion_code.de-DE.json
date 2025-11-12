@@ -1,0 +1,8 @@
+{
+    "url_promotion_code": {
+        "cookie": {
+            "name": "Aktionscode",
+            "description": "Speichert einen von Ihnen eingegebenen Aktionscode, damit er auf Ihren Warenkorb angewendet werden kann."
+        }
+    }
+}

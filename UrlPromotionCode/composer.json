@@ -1,0 +1,25 @@
+{
+    "name": "url-promotion-code/plugin",
+    "description": "Detects promotion codes from URL parameters and applies them automatically",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "UrlPromotionCode\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": "^6.6"
+    },
+    "extra": {
+        "shopware-plugin-class": "UrlPromotionCode\\UrlPromotionCode",
+        "label": {
+            "en-GB": "URL Promotion Code",
+            "de-DE": "URL Aktionscode"
+        },
+        "description": {
+            "en-GB": "Automatically applies promotion codes from URL parameters to cart",
+            "de-DE": "Wendet automatisch Aktionscodes aus URL-Parametern auf den Warenkorb an"
+        }
+    }
+}

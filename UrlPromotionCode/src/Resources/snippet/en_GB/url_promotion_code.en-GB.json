@@ -1,0 +1,8 @@
+{
+    "url_promotion_code": {
+        "cookie": {
+            "name": "Promotion Code",
+            "description": "Stores a promotion code you entered so it can be applied to your cart."
+        }
+    }
+}

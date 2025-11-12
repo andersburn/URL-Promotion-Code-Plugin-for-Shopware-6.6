@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Configuration</title>
+        <title lang="de-DE">Konfiguration</title>
+        <title lang="da-DK">Konfiguration</title>
+
+        <input-field type="bool">
+            <name>active</name>
+            <label>Enable URL promotion code detection</label>
+            <label lang="de-DE">URL-Aktionscode-Erkennung aktivieren</label>
+            <label lang="da-DK">Aktivér URL-rabatkode-detektion</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+    </card>
+</config>
